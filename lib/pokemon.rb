@@ -4,12 +4,21 @@ class Pokemon
 
  #  @@all =[]
 
+<<<<<<< HEAD
   def initialize id:, name:, db:, type:, hp: ""
     @id = id
     @name =name
     @type = type
     @db = db
     @hp = hp
+=======
+  def initialize(keywords)
+    # @id = id
+    # @name =name
+    # @type = type
+    # @db = db
+    # @hp = hp
+>>>>>>> ce368c43c8a80f38ef6a739ec87705a1d3d2007a
 
   end
 
